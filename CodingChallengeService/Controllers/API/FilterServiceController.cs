@@ -23,6 +23,10 @@ namespace CodingChallengeService.Controllers.API
             _service = service;
         }
 
+        public string Get(int id)
+        {
+            return "Shakil Surani";
+        }
 
         public IHttpActionResult Post([FromBody]Request request)
         {
