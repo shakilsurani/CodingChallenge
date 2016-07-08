@@ -21,8 +21,7 @@ namespace CodingChallengeService.Controllers.API
         public FilterServiceController(IFilterService service)
         {
             _service = service;
-        }
-
+        }    
 
         public IHttpActionResult Post([FromBody]Request request)
         {
