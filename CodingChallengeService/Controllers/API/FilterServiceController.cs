@@ -21,12 +21,7 @@ namespace CodingChallengeService.Controllers.API
         public FilterServiceController(IFilterService service)
         {
             _service = service;
-        }
-
-        public string Get(int id)
-        {
-            return "Shakil Surani";
-        }
+        }    
 
         public IHttpActionResult Post([FromBody]Request request)
         {
